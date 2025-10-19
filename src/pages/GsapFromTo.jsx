@@ -2,7 +2,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
 const GsapFromTo = () => {
-  //ToDO: implement the gsap.to() method
+  //ToDO: implement the gsap.fromTo() method
 
   useGSAP(() => {
     gsap.fromTo("#red-box", {
