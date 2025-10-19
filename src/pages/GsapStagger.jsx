@@ -6,11 +6,19 @@ const GsapStagger = () => {
 
     useGSAP(() => {
       gsap.to('.stagger-box', {
-        y:250,
+        y:120,
         rotation: 360,
         borderRadius: '100%',
         repeat: -1,
-        yoyo: true
+        yoyo: true,
+        // stagger: 0.5,
+        stagger: {
+          amount: 1,
+          grid: [2, 1],
+          axis: 'y',
+          ease: 'circ.inOut',
+          from: 'center'
+        }
       })
     }, [])
     
