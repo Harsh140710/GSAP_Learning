@@ -9,6 +9,7 @@ const examples = [
   { id: 4, title: "GsapTimeline", path: "/gsap-timeline" },
   { id: 5, title: "GsapStagger", path: "/gsap-stagger" },
   { id: 6, title: "Gsap ScrollTrigger", path: "/gsap-scroll-trigger" },
+  { id: 6, title: "GsapText", path: "/gsap-text" },
 ];
 
 const Home = () => {
