@@ -68,7 +68,7 @@ const GsapTimeline = () => {
         method
       </p>
 
-      <button className="bg-gray-500 w-1/9 mt-5 px-2 py-2 rounded-2xl poppins-bold cursor-pointer" onClick={() => {
+      <button className="bg-gray-500 lg:w-1/9 mt-5 px-2 py-2 rounded-2xl poppins-bold cursor-pointer" onClick={() => {
         if(timeline.paused()){
           timeline.play()
         } else {

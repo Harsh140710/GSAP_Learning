@@ -15,7 +15,7 @@ const GsapFrom = () => {
   }, []);
 
   return (
-    <main className="flex p-20 flex-col h-screen bg-black">
+    <main className="flex p-20 flex-col min-h-screen bg-black">
       <h1 className="poppins-bold text-white mb-10 text-3xl">GsapFrom</h1>
 
       <p className="font-mono text-gray-400 text-lg">
